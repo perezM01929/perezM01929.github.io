@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.principal {
+    padding: 80px 195px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #c6c6df;
+}
+
+.contenedor {
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+.izquierdo {
+    background-color: #e5e6f0;
+    position: relative;
+    width: 50%;
+}
+
+.derecho {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+
+img {
+    width: 252px;
+    height: auto; 
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.plan-info-container1 img{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.logo-bal {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 20%; 
+    left: 20%; 
+    transform: translate(-50%, -50%); 
+}
+
+
+
+.navegacion {
+    position: absolute;
+    bottom: 5%;
+    left: 22%;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.check {
+    position: relative; 
+    top: 13px; 
+    left: -70px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin: 20% 0 5%;
+    width: auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 160% ;
+    margin: 30% 0 5%;
+    width: auto;
+    
+    text-align: left; 
+    margin-left: 1cm; 
+}
+
+
+.contenedor .radio h3 {
+    margin-top: 20px; 
+    color: #8b8b8b;
+    margin-left: -4cm;
+}
+
+.email {
+    width: 50%;
+    height: 10%;
+    margin-left: 1%;
+    border-style: left;
+}
+
+.password {
+    width: 50%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 1%;
+    border-style: left;
+}
+
+.radio {
+    margin-top: 5%;
+    margin-left: -11cm;
+    flex-direction: row;
+    font-size: small;
+}
+
+.boton:hover {
+    background-color: #058191;
+}
+
+.boton {
+    background-color: #00ce45;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%; 
+    margin: -80px auto; 
+    margin-left: -2cm; 
+    font-size: 16px; 
+}
+
+
+.boton1 {
+    background-color: #a201e2;
+    color: #fff;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; 
+    font-size: 14px; 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+
+.boton2 {
+    background-color: #e0e0e0;
+    color: #000000;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; 
+    font-size: 14px; 
+    position: absolute; 
+    top: 10px; 
+    right: 120px; 
+}
+
+.derecho a {
+    color: #c6c6df;
+    text-decoration: none;
+    margin-top: -10%; 
+    margin-left: -10%;
+}
+
+
+.derecho h1,
+.derecho .email,
+.derecho .password,
+.derecho .radio 
+{
+    margin-left: 5cm;
+}
